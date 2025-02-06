@@ -79,8 +79,13 @@
 
     <script>
         function goToChannel(channel) {
-            alert('الانتقال إلى ' + channel);
+            if (channel === 'ssc_news') {
+                window.location.href = 'https://mozozmozozmozoz7.github.io/on-time-1/';
+            } else if (channel === 'ssc_1') {
+                window.location.href = 'https://mozozmozozmozoz7.github.io/on-time-2/';
+            }
         }
     </script>
+    
 </body>
 </html>
